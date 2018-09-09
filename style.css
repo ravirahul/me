@@ -1,0 +1,348 @@
+/* Ravi Rahul -- Started Writing Code on : 02.09.2018  16:01 */
+/* Ravi Rahul -- Placed 1st on github on : 09.09.2018  13:52 */
+
+.root{
+	
+	
+}
+
+#body{
+	background-color: white;
+}
+
+a:link{
+	text-decoration: none;
+	color: black;
+}
+
+.container{
+	height: 550px;
+	width: 1000px;
+	padding: 0 0 0 0;
+	background-color: skyblue;
+	margin: 50px 0 0 150px;
+	color: black;
+	z-index: 8;
+}
+
+	/*profile details box starts*/
+	
+.profileContainer{
+	height: 560px;
+	width: 220px;
+	background-color:red;
+	float:left;
+	margin-top: -10px;
+	margin-left: 145px;	
+	padding-top: 10px;
+	z-index: 10;
+}
+	
+.profileimg{
+	height: 180px;
+	width:180px;
+	border-radius: 150px;
+	margin: 30px 0 0 0;
+}
+
+.message h1{
+	font-family: Arial;
+	margin: -1px 0 0 0;
+}
+
+.message h3{
+	font-family: Cambria;
+	margin-top: -1px;
+}
+
+.icons img{
+	height: 20px;
+	width: 20px;
+	display: inline-block;
+	margin: 5px;
+}
+
+.button{
+	top: 90px;
+	position: relative;
+	margin-top: 100px;
+	display: inline-block;
+}
+
+#profileButton{
+	background-color: green;
+	border: none;
+	padding: 5 px;
+	height: 25px;
+	width: 95px;
+	margin: 0 5px 5px 5px;
+	
+	
+	
+}
+
+/*About Me */
+
+.aboutMe{
+	height: 90%;
+	width: 74%;
+	float: right;
+	margin-top: 5px;
+	margin-right: 5px;
+	padding: 5px;
+	/*background-color: white;*/
+}
+
+.aboutMe h3{
+	margin-left: 10px;
+	background-color: LightGray;
+}
+
+.aboutMe p{
+	margin: 5px;
+	font-family: times;
+	font-size: 20px;
+	
+}
+
+.basicContactBox{
+	margin-left: 20px;
+	margin-top: 10px;
+}
+
+.basicContactBox img{
+	height: 25px;
+	width: 25px;
+}
+
+.basicContact{
+	display: inline-block;
+	width: 40%;
+	margin-left: 30px;
+	margin-top:5px;
+	padding-left: 5px;
+}
+
+.basicContact h4{
+	margin-top: -22px;
+	margin-left: 30px;
+} 	 
+
+.skillsHobbies{
+	height: 240px;
+	padding: 5px;
+}
+
+.skills{
+	float:left;
+	width: 48%;
+	height: 100%;
+}
+
+.skillSpan{
+	margin: 5px;
+	
+}
+
+.hobbies{
+	float: right;
+	width: 48%;
+	height: 100%;
+}
+
+.hobbies img{
+	height: 40px;
+	width: 40px;
+}
+
+.hobbyspan{
+	display: inline-block;
+	width: 25%;
+	height: 25%;
+	margin-bottom: 15px;
+	margin-left: 15px;
+}
+
+
+/*nav buttons*/
+.nav{
+	position: fixed;
+	top: 200px;
+	left: 1158px;
+	background-color: lightGray;
+	z-index: 20;
+}
+
+.navButton{
+	
+}
+
+.navButton img{
+	height: 35px;
+	width: 35px;
+	margin-top:1px;
+}
+
+
+/* #-#-#-#-#-#-#-#  STYLING CONTACT PAGE  #-#-#-#-#-#-#-# */
+
+.contactContainer{
+		height: 540px;
+		width: 74%;
+		margin: 5px;
+		float: right;
+		/*background-color: blue;*/
+}
+
+.contactContainer img{
+	height: 30px;
+	width: 30px;
+}
+
+.contacts{
+	height: 50%;
+	width: 98%;
+	margin : 10px 10px 5px 5px;
+	/*background-color: Gray;*/
+}
+
+.contactBox{
+	width: 70%;
+	float: left;
+}
+
+.contactSpan{
+	margin: 8px 0 0 10px;
+	height: 30px;
+	/*background-color: white;*/
+}
+
+.contactSpan h4{
+	margin: -28px 0 0 30px;
+	
+}
+
+.mapAndForm{
+	height: 45%;
+	width: 98%;
+	margin: 5px;
+	/*background-color: LightGray;*/
+}
+
+.map{
+	float: left;
+	height: 100%;
+	width: 48%;
+	/*background-color: red;*/
+}
+
+.form{
+	float: right;
+	height: 100%;
+	width: 48%;
+	/*background-color: red;*/
+}
+
+form{
+margin: 5px;
+}
+
+input{
+margin: 2px;
+height: 20px;
+width: 50%;
+border-radius: 8px;
+padding-left: 5px;
+background-color: lightGray;
+}	
+
+textarea{
+height: 70px;
+width: 75%;
+border-radius: 15px;
+background-color: lightGray;
+	
+}
+
+/* STARTS Styling to show and hide contents */
+
+div[class*="content-"] {
+	display:none;
+}
+
+div .active{
+	display: block;
+}
+
+/* ENDS Styling to show and hide contents */
+
+
+
+/* STARTS timeline styling */
+
+/* STARTS Styling to show and Work & Study Details */
+
+div[class*="message-"] {
+	display: none;
+}
+
+
+div .active{
+	display: block;
+}
+
+/* TABLE Formatting */
+
+table{
+	float: right;
+	width: 70%;
+	height: 30%;
+	margin: 25px 25px 35px;
+	border: -1px;
+	
+	
+}
+
+table button{
+	color: red;
+	height: 100%;
+	width: 100%;
+	border: none;
+	background-color: none;
+}
+
+table button:hover{
+	background-color: blue;
+}
+
+table #icon{
+	height: 25px;
+	width: 25px;
+	
+	
+}
+	
+
+
+.studyHeader, .workHeader{
+	transform: rotate(-90deg);
+	width: 20px;
+}
+
+#iconCell{
+	background-color: lightGray;
+}
+
+#menuCell{
+	width: 20%;
+	background-color: green;
+}
+
+#headCell{
+	width:25px;
+	background-color: lightGray;
+}
+
+#messageCell{
+	padding: 10px;
+}
