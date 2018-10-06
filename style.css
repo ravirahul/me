@@ -9,7 +9,8 @@
 #body{
 	background: white;
 	background: linear-gradient(#F1F2B5, #135058);  /*Fresh Turboscent*/
-	background-size: cover;
+	background-attachment: fixed;
+	background-repeat: none;
 	
 }
 
