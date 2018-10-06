@@ -53,6 +53,29 @@ a:link{
 	margin: -1px 0 0 0;
 }
 
+.message h1:hover{
+	font-family: times;
+	animation-name: titleColor;
+	animation-duration: 2s;
+}
+
+@keyframes titleColor{
+	0% {color: red;}
+	20% {color: skyBlue;}
+	40% {color: Green;}
+	80% {color: Blue;}
+	100% {color: yellow;}
+}
+
+-webkit-@keyframes titleColor{
+	0% {color: red;}
+	20% {color: skyBlue;}
+	40% {color: Green;}
+	80% {color: Blue;}
+	100% {color: yellow;}
+}
+
+
 .message h3{
 	font-family: Cambria;
 	margin-top: -1px;
