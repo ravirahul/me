@@ -6,14 +6,21 @@
 function homeButton(){
 	document.getElementById("content-1").classList.add('active');
 	document.getElementById("content-2").classList.remove('active');
+	document.getElementById("content-3").classList.remove('active');
 }
 
 function contactButton(){
 	document.getElementById("content-2").classList.add('active');
 	document.getElementById("content-1").classList.remove('active');
+	document.getElementById("content-3").classList.remove('active');
 }
 
 
+function workButton(){
+	document.getElementById("content-1").classList.remove('active');
+	document.getElementById("content-2").classList.remove('active');
+	document.getElementById("content-3").classList.add('active');
+}
 
 /*Study & Experiences*/
 function clickBCA(){
